@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://unitbytes.com/assets/banners/unitbytes-google-trends-realtime-keyword-api-banner.jpg" alt="Google Trends Real-Time & Historical API by UnitBytes" width="100%" />
+</p>
+
 # google-trends-scraper
 
 ![Google Trends Scraper Actor Logo](https://images.apifyusercontent.com/oYyezynONTeIZJZbuoM0mrzdKFbdCiB-8HkdYEaJ_Ew/rs:fill:250:250/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vM1ByZFpVREtZWFVYWkxXTTMtYWN0b3ItcXA2bUtTU2NZb3V0WXFDT2EtN21NQXoyNUMxaS1nb29nbGVfdHJlbmRzX2FjdG9yLmpwZw.webp) 
@@ -68,7 +72,7 @@ const input = {
 };
 
 // Run the Actor and wait for it to finish
-const run = await client.actor(\"unitbytes/google-trends-scraper\").call(input);
+const run = await client.actor("unitbytes/google-trends-scraper\").call(input);
 
 // Fetch and print Actor results from the run's dataset (if any)
 console.log('Results from dataset');
@@ -111,7 +115,7 @@ client = ApifyClient("<YOUR_API_TOKEN>")
 run_input = { "keywords": ["Web scraping"] }
 
 # Run the Actor and wait for it to finish
-run = client.actor(\"unitbytes/google-trends-scraper\").call(run_input=run_input)
+run = client.actor("unitbytes/google-trends-scraper\").call(run_input=run_input)
 
 # Fetch and print Actor results from the run's dataset (if there are any)
 print("💾 Check your data here: https://console.apify.com/storage/datasets/" + run["defaultDatasetId"])
@@ -162,6 +166,14 @@ Refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 ## License & Support
 
 This project is licensed under the MIT License.  
-For actor support, visit the [Apify Store listing](https://apify.com/unitbytes/google-trends-scraper?fpr=939u3w&fp_sid=20251002) or contact [radwanfaris13@gmail.com](mailto:radwanfaris13@gmail.com).
+For actor support, visit the [Apify Store listing](https://apify.com/unitbytes/google-trends-scraper?fpr=939u3w&fp_sid=20251002) or contact [contact@unitbytes.com](mailto:contact@unitbytes.com).
 
 *Happy scraping!*
+
+---
+
+## 💬 Enterprise Support & Custom Pipelines
+Need custom web data feeds, high-frequency scheduled runs, private cluster deployments, or dedicated SLAs?
+- 📧 **Direct Email**: [contact@unitbytes.com](mailto:contact@unitbytes.com)
+- 🌐 **Enterprise Platform**: [https://unitbytes.com](https://unitbytes.com)
+- 💡 **Data Engine Specs & Live Docs**: [https://unitbytes.com/actors/google-trends-api/](https://unitbytes.com/actors/google-trends-api/)
