@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://unitbytes.com/assets/banners/unitbytes-google-trends-realtime-keyword-api-banner.jpg" alt="Google Trends Real-Time & Historical API by UnitBytes" width="100%" />
+  <img src="https://raw.githubusercontent.com/unitbytes-com/.github/main/assets/banners/unitbytes-google-trends-realtime-keyword-api-banner.jpg" alt="Google Trends Real-Time & Historical API by UnitBytes" width="100%" />
 </p>
 
 # google-trends-scraper
