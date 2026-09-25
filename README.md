@@ -11,7 +11,7 @@ Fetch real-time trending searches, interest over time, interest by region, and r
 
 Struggling to scrape data from Google Trends? This easy-to-use, reliable scraper gives you access to all the data you need. Try it free for 1 day—with no credit card required—and only pay if you love it.
 
-`google-trends-scraper` wraps the [Google Trends Scraper actor on Apify](https://apify.com/scraperpro/google-trends-scraper?fpr=939u3w&fp_sid=20251002), providing:
+`google-trends-scraper` wraps the [Google Trends Scraper actor on Apify](https://apify.com/unitbytes/google-trends-scraper?fpr=939u3w&fp_sid=20251002), providing:
 
 - **Trending Now** (realtime hot searches)  
 - **Interest Over Time** (time series for keywords)  
@@ -33,14 +33,14 @@ Struggling to scrape data from Google Trends? This easy-to-use, reliable scraper
 ### Apify CLI
 
 ```bash
-npx apify run scraperpro/google-trends-scraper \
+npx apify run UnitBytes/google-trends-scraper \
   --input '{"scrape_type":"trending_now","common_geo":"US","trending_hours":24}'
 ```
 
 ### HTTP API
 
 ```bash
-curl -X POST https://api.apify.com/v2/acts/scraperpro~google-trends-scraper/runs \
+curl -X POST https://api.apify.com/v2/acts/unitbytes~google-trends-scraper/runs \
      -H "Content-Type: application/json" \
      -d '{"scrape_type":"trending_now","common_geo":"US","trending_hours":24}'
 ```
@@ -68,7 +68,7 @@ const input = {
 };
 
 // Run the Actor and wait for it to finish
-const run = await client.actor("scraperpro/google-trends-scraper").call(input);
+const run = await client.actor(\"unitbytes/google-trends-scraper\").call(input);
 
 // Fetch and print Actor results from the run's dataset (if any)
 console.log('Results from dataset');
@@ -89,7 +89,7 @@ items.forEach((item) => {
             "command": "npx",
             "args": [
                 "mcp-remote",
-                "https://mcp.apify.com/?tools=scraperpro/google-trends-scraper",
+                "https://mcp.apify.com/?tools=UnitBytes/google-trends-scraper",
                 "--header",
                 "Authorization: Bearer <YOUR_API_TOKEN>"
             ]
@@ -111,7 +111,7 @@ client = ApifyClient("<YOUR_API_TOKEN>")
 run_input = { "keywords": ["Web scraping"] }
 
 # Run the Actor and wait for it to finish
-run = client.actor("scraperpro/google-trends-scraper").call(run_input=run_input)
+run = client.actor(\"unitbytes/google-trends-scraper\").call(run_input=run_input)
 
 # Fetch and print Actor results from the run's dataset (if there are any)
 print("💾 Check your data here: https://console.apify.com/storage/datasets/" + run["defaultDatasetId"])
@@ -162,6 +162,6 @@ Refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 ## License & Support
 
 This project is licensed under the MIT License.  
-For actor support, visit the [Apify Store listing](https://apify.com/scraperpro/google-trends-scraper?fpr=939u3w&fp_sid=20251002) or contact [radwanfaris13@gmail.com](mailto:radwanfaris13@gmail.com).
+For actor support, visit the [Apify Store listing](https://apify.com/unitbytes/google-trends-scraper?fpr=939u3w&fp_sid=20251002) or contact [radwanfaris13@gmail.com](mailto:radwanfaris13@gmail.com).
 
 *Happy scraping!*
