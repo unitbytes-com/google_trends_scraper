@@ -39,6 +39,21 @@
 
 ---
 
+## ⚡ Pre-Configured 1-Click Tasks & Common Use Cases
+
+Skip manual parameter setup. Launch these ready-to-use task presets directly in 1 click:
+
+| SEO Keyword / Research Preset | Description & Target Query | 1-Click Run Link |
+| :--- | :--- | :---: |
+| **Compare Brand & Competitor Interest Over Time** | Track and compare multi-keyword historical search interest over 12 months to analyze market share, brand awareness, and seasonal peaks. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper?task=compare-brand-interest-over-time&fpr=939u3w&fp_sid=gh_trends_scraper) |
+| **Discover Rising & Breakout SEO Keywords with Google Trends** | Extract breakout queries, surging search terms, and top related keywords for any seed topic to optimize content and SEO strategies. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper?task=rising-breakout-keywords-finder&fpr=939u3w&fp_sid=gh_trends_scraper) |
+| **Analyze Geographic Search Demand by State & Region** | Map search interest across US states, DMAs, or international regions to optimize geo-targeted Google Ads and local product launches. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper?task=state-level-regional-demand-heatmap&fpr=939u3w&fp_sid=gh_trends_scraper) |
+| **Monitor Real-Time Viral Search Trends & Breaking Topics** | Fetch hourly breakout queries, viral news events, and real-time trending Google searches to power news feeds, alerts, and content ideas. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper?task=realtime-trending-searches-monitor&fpr=939u3w&fp_sid=gh_trends_scraper) |
+| **Extract Semantic SEO Related Topics & Knowledge Entities** | Discover related topical entities and concepts recognized by Google's Knowledge Graph to build topical authority and content clusters. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper?task=semantic-seo-related-topics&fpr=939u3w&fp_sid=gh_trends_scraper) |
+| **Track YouTube Search Interest & Video Keyword Trends** | Analyze video search behavior on YouTube specifically to discover video topics, tutorial demand, and creator content niches. | [⚡ Launch Task](https://apify.com/unitbytes/google-trends-scraper?task=youtube-search-interest-trends&fpr=939u3w&fp_sid=gh_trends_scraper) |
+
+---
+
 ## 🏆 Why This Scraper Beats Competitors
 
 Most Google Trends scrapers on the market break frequently due to rate-limiting and anti-scraping protections (`429 Too Many Requests`). This scraper is built with automated anti-blocking architecture and residential proxy rotation to ensure fast, continuous data delivery. 
